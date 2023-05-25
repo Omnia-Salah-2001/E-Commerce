@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #ffc107;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(250, 244, 244);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffc107;
+    border-radius: 20px;
+}
+
+.photos {
+    margin-top: 100px !important;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.superNav {
+    font-size: 13px;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:540px) {
+    .centerOnMobile {
+        text-align: center
+    }
+}
+
+.carousel {
+    position: relative;
+    border: 2px solid #ffc107 !important;
+    height: 540px !important;
+    padding: 20px 25px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+
+}
+.carousel-inner img {
+    height: 500px !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel {
+        height: fit-content !important;
+    }
+    .carousel-inner img {
+        height: 350px !important;
+    }
+}
+.nav-link {
+    border: 3px solid transparent;
+    transition: all .3s ease;
+}
+
+.title-BSC {
+    margin-top: 80PX !important;
+}
+
+.op {
+    margin-top: 80px;
+}
+.card-product{
+    height: 454px !important;
+}
+
+.card-m img {
+    position: absolute;
+    height: calc(454px / 2) !important;
+
+}
+
+.card-m .card-body {
+    position: absolute;
+    height: 50%;
+    bottom: 15px;
+}
+
+.search-m {
+    cursor: pointer;
+}
+#toTopBtn {
+    display: none;
+    /* Hide the button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #ffc107;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all .3s ease;
+    animation: move .3s infinite alternate;
+    -webkit-animation: move .3s infinite alternate;
+}
+
+#toTopBtn:hover {
+    background-color: #555;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}

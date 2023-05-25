@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="icon" href="Images/bag-check-fill.svg">
+    <!-- Fonts Awesome-->
+    <link rel="stylesheet" href="CSS/all.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- CSS dependences -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- End -->
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="css/shopping.css">
+</head>
+
+<body>
+    <div class="superNav border-bottom py-2  bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 centerOnMobile">
+                    <!-- <select class="me-3 border-0 bg-light">
+                        <option value="en-us">EN-US</option>
+                    </select> -->
+                    <span
+                        class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3 "><strong>mahrousgamal2001@gmail.com</strong></span>
+                    <span class="d-lg-inline-block d-md-inline-block me-3"><i
+                            class="fa-solid fa-phone me-1 text-warning"></i>
+                        <strong>+20 100 144 9752</strong></span>
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
+                    <span class="me-3 "><i class="fa-solid fa-truck text-muted me-1"></i><a
+                            class="text-muted text-decoration-none" href="#">Shipping</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top navbar-dark p-3 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-shop me-2 text-warning"></i><strong><span
+                        class="text-warning">M</span>AHROUS SHOP</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="mx-auto my-3 d-lg-none d-sm-block d-xs-block">
+                <div class="input-group">
+                    <input type="text" class="form-control border-warning" style="color:#7a7a7a">
+                    <span class="border-warning input-group-text bg-warning text-white search-m"><i
+                            class="fa-solid fa-magnifying-glass"></i></span>
+
+                    <!-- <button class="btn btn-warning text-white">Search</button> -->
+                </div>
+            </div>
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="ms-auto d-none d-lg-block">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-warning" style="color:#7a7a7a">
+                        <span class="border-warning input-group-text bg-warning text-white search-m"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+
+                        <!-- <button class="btn btn-warning text-white">Search</button> -->
+                    </div>
+                </div>
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-capitalize" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-capitalize" href="filter.html">shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-capitalize" href="love.html">Wish list</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-capitalize" href="shopping.html"><i
+                                class="fa-solid fa-cart-shopping me-1"></i>
+                            View Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-capitalize" href="profile.html"><i
+                                class="fa-solid fa-circle-user me-1"></i>
+                            Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End -->
+    <!-- Render Section (: -->
+    <main class=" mt-3 pt-4">
+        <div class="payment">
+            <div class="timeline">
+                <h2 class="text-center fw-bold mb-5">Shopping Cart</h2>
+                <p class="fs-5 fw-bold  back-to-shop"><i class="fa-solid fa-arrow-right fa-rotate-180"></i> Back To
+                    Shop</p>
+                <div class="card-love ">
+                    <div class="img-love">
+                        <img class="d-block img-fluid love-image" src="Images/camera-gd6c6b16ec_1920.jpg" alt="">
+                    </div>
+                    <h5 class="card-title ms-2 text-primary fw-bold name-product">Huawei P30</h5>
+                    <div class="plus-mius d-flex  ms-2 align-items-center justify-content-between"
+                        style="width: 220px;">
+                        <a href="#" class="btn btn-sm btn-secondary rounded rounded-5  d-block btns"><i
+                                class="fa-solid fa-minus"></i></a>
+                        <h5 class="card-title fw-bold number-of-products">2</h5>
+                        <a href="#" class="btn  btn-sm btn-lg btn-l btn-success rounded rounded-5  d-block btns"><i
+                                class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <h5 class="card-title ms-2 fw-bold  product-price text-center">Price : 5000<span
+                            class="text-success">$</span> </h5>
+                    <!-- <a href="#" class="btn btn-warning rounded rounded-5 ms-auto d-block btn-close"></a> -->
+                    <a href="#" class="btn  btn-sm btn-warning rounded rounded-5  d-block btns "><i
+                            class="fa-solid fa-xmark"></i></a>
+                </div>
+                <div class="card-love ">
+                    <div class="img-love">
+                        <img class="d-block img-fluid love-image" src="Images/sincerely-media-ylveRpZ8L1s-unsplash.jpg" alt="">
+                    </div>
+                    <h5 class="card-title ms-2 text-primary fw-bold name-product">Huawei P30</h5>
+                    <div class="plus-mius d-flex  ms-2 align-items-center justify-content-between"
+                        style="width: 220px;">
+                        <a href="#" class="btn btn-sm btn-secondary rounded rounded-5  d-block btns"><i
+                                class="fa-solid fa-minus"></i></a>
+                        <h5 class="card-title fw-bold number-of-products">2</h5>
+                        <a href="#" class="btn  btn-sm btn-lg btn-l btn-success rounded rounded-5  d-block btns"><i
+                                class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <h5 class="card-title ms-2 fw-bold  product-price text-center">Price : 5000<span
+                            class="text-success">$</span> </h5>
+                    <!-- <a href="#" class="btn btn-warning rounded rounded-5 ms-auto d-block btn-close"></a> -->
+                    <a href="#" class="btn  btn-sm btn-warning rounded rounded-5  d-block btns "><i
+                            class="fa-solid fa-xmark"></i></a>
+                </div>
+                <div class="card-love ">
+                    <div class="img-love">
+                        <img class="d-block img-fluid love-image" src="Images/tyler-clemmensen-wLpTPp2dzsY-unsplash.jpg" alt="">
+                    </div>
+                    <h5 class="card-title ms-2 text-primary fw-bold name-product">Huawei P30</h5>
+                    <div class="plus-mius d-flex  ms-2 align-items-center justify-content-between"
+                        style="width: 220px;">
+                        <a href="#" class="btn btn-sm btn-secondary rounded rounded-5  d-block btns"><i
+                                class="fa-solid fa-minus"></i></a>
+                        <h5 class="card-title fw-bold number-of-products">2</h5>
+                        <a href="#" class="btn  btn-sm btn-lg btn-l btn-success rounded rounded-5  d-block btns"><i
+                                class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <h5 class="card-title ms-2 fw-bold  product-price text-center">Price : 5000<span
+                            class="text-success">$</span> </h5>
+                    <!-- <a href="#" class="btn btn-warning rounded rounded-5 ms-auto d-block btn-close"></a> -->
+                    <a href="#" class="btn  btn-sm btn-warning rounded rounded-5  d-block btns "><i
+                            class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>     
+            <div class="payment-info">
+                <div class="card border-dark mb-3 fs-6 p-3 rounded rounded-4"
+                    style="min-width: 17rem; background-color: #263041 ;color: white;">
+                    <div class="card-header fs-3 fw-bold">Payment Info</div>
+                    <hr>
+                    <h5 class="card-title">
+                        <p class="ps-3">Payment Method:</p>
+                    </h5>
+                    <div class="pay d-flex justify-content-between ps-3 w-100">
+                        <!-- <i class="fa-brands fa-cc-visa  text-secondary"></i>
+                        <i class="fa-brands fa-cc-paypal "></i> -->
+                        <img class="border border-secondary rounded rounded-4 p-3 visa" src="Images/visa-logo.png"
+                            alt="" width="100">
+                        <img class="border border-secondary rounded rounded-4 p-3 visa" src="Images/paypal-logo.png"
+                            alt="" width="100">
+                    </div>
+                    <div class="card-body">
+                        <hr>
+                        <p class="fs-4">Total: 50000<span class="text-success">$</span></p>
+                        <hr>
+                        <button class="btn btn-warning text-white fs-5" type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Pay</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel ">Enter Your Info To Buy</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3 mt-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="address" class="form-label">Address:</label>
+                            <input type="text" class="form-control" id="address" placeholder="Enter your address"
+                                name="address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tel" class="form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="tel" placeholder="Enter your Phone" name="tel">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="card" class="form-label">Card:</label>
+                            <input type="text" class="form-control" id="card" placeholder="Enter your card" name="card">
+                        </div>
+                        <div class="form-check mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Remmember me</label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-warning" onclick="success();">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="mt-5">
+        <button id="toTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-white ">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="me-4 link-secondary text-decoration-none">
+                        <i class="fab fa-facebook-f text-decoration-none"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary text-decoration-none">
+                        <i class="fab fa-twitter text-decoration-none"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary text-decoration-none">
+                        <i class="fab fa-google text-decoration-none"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary text-decoration-none">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary text-decoration-none">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary text-decoration-none">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4  mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-capitalize fw-bold mb-4">
+                                <!-- <i class="fas fa-gem me-3 text-secondary"></i>Mahrous Gamal -->
+                                <i class="fa-solid fa-shop me-2 text-warning"></i><strong><span
+                                        class="text-warning">M</span>AHROUS SHOP</strong>
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-capitalize fw-bold mb-4 text-decoration-none">
+                                Products
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Laptops</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Mobiles</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Cars</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Cameras</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-capitalize fw-bold mb-4 text-decoration-none">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset text-decoration-none">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3  mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-capitalize fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3 text-secondary"></i>Al-Badari ,Assiut ,Egypt</p>
+                            <p>
+                                <i class="fas fa-envelope me-3 text-secondary"></i>
+                                mahrousgamal2001@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3 text-secondary"></i> +20 100 144 9752</p>
+                            <p><i class="fas fa-print me-3 text-secondary"></i> +20 101 145 9255</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.025);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold text-decoration-none" href="https://mdbootstrap.com/">Mahrous Gamal</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+    </div>
+    <!-- End of .container -->
+    <!-- End of .container -->
+    <!-- End Section -->
+
+
+    <!-- JS dependences -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- End -->
+</body>
+
+</html>
